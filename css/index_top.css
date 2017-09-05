@@ -1,0 +1,95 @@
+*{margin: 0;padding: 0;}
+#index_top{
+	width: 100%;
+	min-width: 1220px;
+	/*background: grey;*/
+}
+#top_content{
+	width: 1220px;
+	height: 190px;
+	/*background: #ffffff;*/
+	margin: 0 auto;
+	position: relative;
+}
+img{
+	position: absolute;
+	width: 170px;
+	top: 65px;
+}
+#img_first{
+	position: absolute;
+	left: 210px;
+}
+#img_second{
+	position: absolute;
+	left: 395px;
+	width: 585px;
+	top: 25px;
+}
+#field{
+	position: absolute;
+	width: 537px;
+	height: 26px;
+	left: 406px;
+	top: 87px;
+}
+/*点击搜索图片进入新网页*/
+#img_three{
+	position: absolute;
+	left: 949px;
+	top: 88px;
+	width: 27px;
+	height: 27px;
+	cursor: pointer;
+}
+/*购物车没变色前*/
+#img_four{
+	position: absolute;
+	width: 50px;
+	height: 45px;
+	left: 990px;
+	top: 80px;
+	cursor: pointer;
+}
+#img_four:hover{
+	opacity: 0;
+}
+/*购物车变色后*/
+#shop{
+	position: absolute;
+	width: 49px;
+	height: 45px;
+	left: 991px;
+	top: 80px;
+	cursor: pointer;
+}
+#btn{
+	position: absolute;
+	width: 165px;
+	height: 45px;
+	left: 1053px;
+	top: 80px;
+	background: #f0f0f0;
+	border: none;
+	cursor: pointer;
+}
+#top_list{
+	width: 1220px;
+	height: 40px;
+	background: #f0f0f0;
+	position: absolute;
+	top: 150px;
+	}
+#top_list li{
+	list-style: none;
+	float: left;
+	width: 100px;
+	line-height: 40px;
+	font-size: 14px;
+	margin-left: 100px;
+	cursor: pointer;
+}
+#top_list li:hover{
+	color: darkred;
+}
+

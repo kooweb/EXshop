@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/index_abanderar.css"/>
+		<title>注册</title>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript">
+			
+		</script>
+	</head>
+	<body>
+		<div id="head">
+			
+		</div>
+		<div id="index_abanderar">
+		  <div id="abanderar_abrigo">
+			<div id="Login">
+				<form action="" method="post" id="LoginForm">
+					<div class="userTitle">会员登录</div>
+					<div class="userContent">
+						<ul>
+							<li>
+								<div class="uName">账号：</div>
+								<div><input type="text" name="userName" value class="input" /></div>
+								<div class="uError"><font color="#FFFFFF">请输入账号</font></div>
+							</li>
+							<li>
+								<div class="uName">密码：</div>
+								<div><input type="password" name="password" value class="input" /></div>
+								<div class="uError"><font color="#FFFFFF">请输入密码</font></div>
+							</li>
+							<li>
+								<div class="uName" style="margin-bottom: 200px;">&nbsp;</div>
+							</li>
+							<li class="uSumbit">
+								<a href="javascript:void(0)">登录</a>
+								<div id="uniteLogin">
+									<a href="javascript:void(0)"><img src="img/loginwb.png"/></a>
+									<a href="javascript:void(0)"><img src="img/loginwx.png"/></a>
+									<a href="javascript:void(0)"><img src="img/loginqq.png"/></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<input type="hidden" name="userType" value="login"/>
+				</form>
+			</div>
+			
+			<!--注册部分-->
+			<div id="abanderar">
+				<form action="" method="post" id="registerForm">
+					<div class="userTitle">会员注册</div>
+					<div class="userContent">
+						<ul>
+							<li>
+								<div class="uName">账号：</div>
+								<div>
+									<input type="text" name="name" class="input" />
+								</div>
+								<div class="uError">
+									<font color="#FFFFFF">请输入账号</font>
+								</div>
+							</li>
+							<li>
+								<div class="uName">密码：</div>
+								<div>
+									<input type="password" name="pwd" class="input" />
+								</div>
+								<div class="uError">
+									<font color="#FFFFFF">请输入密码</font>
+								</div>
+							</li>
+							<li>
+								<div class="uName">确认密码：</div>
+								<div>
+									<input type="password" name="rpwd" class="input" />
+								</div>
+								<div class="uError">
+									<font color="#FFFFFF">请输入确认密码</font>
+								</div>
+							</li>
+							<li>
+								<div class="uName">验证码：</div>
+								<div>
+									<input type="text" name="code" class="input" />
+								</div>
+								<div class="uError">
+									<font color="#FFFFFF">请正确输入验证码</font>
+								</div>
+							</li>
+							<li>
+								<div class="uNames">&nbsp;</div>
+								<div><img id="authCode" src="http://www.epgo.com/index.php/imgauthcode/show" onclick="refresh()"/></div>
+							</li>
+							<li>
+								<div class="uName">&nbsp;</div>
+								<div></div>
+							</li>
+							<li class="uMessage">
+								请阅读<a href="javascript:void(0)">《壹品商城服务条款》</a>
+							</li>
+							<li class="uSumbit"><a href="javascript:void(0)" id="ajaxRegister">注册</a></li>
+						</ul>
+					</div>
+					<input type="hidden" name="userType" value="login"/>
+				</form>
+			</div>
+		  </div>
+		</div>
+		<div id="below"></div>
+	</body>
+	<script src="js/index_abanderar.js" type="text/javascript">
+		
+	</script>
+	<script type="text/javascript">
+		$('#head').load("index_top.html")
+		$('#below').load("below.html");
+	</script>
+</html>

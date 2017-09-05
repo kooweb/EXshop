@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index_below.css"/>
+	</head>
+	<body>
+		<div id="index_below">
+			<div id="below_content">
+				<div id="attention">
+					<div id="attention_left">
+						订阅壹品杂志&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="text" name="zazhi" id="zazhi" value="" />
+						<img src="img/zazhi.png"/>
+					</div>
+					<div id="attention_right">
+						<div class="sns">
+							<a href="javascript:void(0)" target="_blank">
+								<img src="img/sinaweibo.png"/>
+								<div>关注我们</div>
+							</a>
+						</div>
+						<div class="sns">
+							<a href="javascript:void(0)" target="_blank">
+								<img src="img/qqweixin.png"/>
+								<div>官方微信</div>
+							</a>
+						</div>
+						<div class="sns">
+							<img src="img/erweima.png"/>
+							<span ><img id="up" src="img/saomiao.png"/></span>
+						</div>
+						<div id="tel">
+							<div id="kefu">客服热线：</div>
+							<div id="telnum">120-820-8820</div>
+						</div>
+					</div>
+				</div>
+				<div id="separate">
+					<div id="fuwu_top">
+						<div class="shop">
+							<div class="shop_img"><img src="img/about.png"/></div>
+							<div class="shop_text">关于我们</div>
+						</div>
+						<div class="shop">
+							<div class="shop_img"><img src="img/xssl.png"/></div>
+							<div class="shop_text">新手上路</div>
+						</div>
+						<div class="shop">
+							<div class="shop_img"><img src="img/zfps.png"/></div>
+							<div class="shop_text">支付/配送</div>
+						</div>
+						<div class="shop">
+							<div class="shop_img"><img src="img/shfw.png"/></div>
+							<div class="shop_text">售后服务</div>
+						</div>
+					</div>
+					<div id="hr" class="clearfuwu"></div>
+					
+					<div id="fuwu_down">
+						<div class="div">
+							<ul><li><a href="javascript:void(0)">EPGO商城</a></li></ul>
+							<ul><li><a href="javascript:void(0)">壹品杂志</a></li></ul>
+							<ul><li><a href="javascript:void(0)">联系我们</a></li></ul>
+							<ul><li><a href="javascript:void(0)">供应商合作</a></li></ul>
+						</div>
+						<div class="div">
+							<ul><li><a href="javascript:void(0)">购物流程</a></li></ul>
+							<ul><li><a href="javascript:void(0)">买家注册</a></li></ul>
+							<ul><li><a href="javascript:void(0)">会员积分</a></li></ul>
+							<ul><li><a href="javascript:void(0)">企业用户</a></li></ul>
+						</div>
+						<div class="div">
+							<ul><li><a href="javascript:void(0)">支付说明</a></li></ul>
+							<ul><li><a href="javascript:void(0)">配送说明</a></li></ul>
+						</div>
+						<div class="div">
+							<ul><li><a href="javascript:void(0)">签收验货</a></li></ul>
+							<ul><li><a href="javascript:void(0)">退换货政策</a></li></ul>
+							<ul><li><a href="javascript:void(0)">保修服务</a></li></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

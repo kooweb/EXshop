@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+#footer {margin:0 auto;margin-top:50px;width:1220px;background-color:rgb(245,245,245);}
+#footer_about{height:80px;background:rgb(145,176,0);}
+.fa_left{width:500px;float:left;font-size:13px;color:#fff;margin-left:50px;line-height:80px;}
+.fa_left input{height:12px;}
+.fa_left img{position:relative;top:3px;left:5px;}
+.fa_right{width:600px;float:right;}
+.fa_right .sns{float:left;margin-left:15px;width:80px;height:80px;text-align:center;}
+.fa_right .sns img{margin-top:5px;}
+.fa_right .sns div{color:#fff;font-size: 13px;}
+#saomiao{ position:relative;top:-98px;left:-10px;}
+#tel{float:left;line-height:80px;margin-left:20px;}
+#tel #kefu{font-size:18px;font-weight:bold;color:#fff;float:left;width:100px;}
+#tel #telnum{font-size:25px;font-weight:bold;color:#fff;float:left}
+#footer_top{text-align:center;padding:0 auto;margin:0 auto;width:650px;margin-top:30px;line-height:30px;}
+#footer_top .shop{font-size:14px;font-weight:bold;float:left;width:160px;color:#000;}
+#hr1{padding:0 auto; margin:0 auto;width:750px;/*margin-top:30px;*/border-top:1px solid rgb(202,202,202);border-bottom:1px solid #fff;position: relative;top: 85px;}
+#footer_center{text-align:center;padding:0 auto;margin:0 auto;width:650px;height:90px;margin-top:5px;display:none;}
+#footer_center .div{font-size:13px;float:left;width:160px;height:120px;}
+#footer_center .div div{margin-top:5px;}
+#footer_center div a{color:rgb(100,100,100);}
+#footer_bottom{text-align:center;padding:0 auto;margin:0 auto;width:900px;margin-top:110px;height:35px;}
+#footer_bottom div{font-size:14px;font-weight:bold;color:rgb(167,167,167);float:left;width:180px;}
+#footer_bottom div a{color:#000;font-weight:bold;}
+#footer_bn{text-align:center;margin:0 auto;width:600px;height:30px;}
+#footer_bn div{font-size:10px;color:rgb(167,167,167);width:600px;float:left;position: relative;left: -35px;}
+#footer_img{text-align:center;margin:0 auto;width:300px;}
+#footer_img div{width:150px;float:left;}
+#footer_img img{width: 117px; height:40px;position: relative;top: 0px;}
+.shop_img img{width: 42px;height: 42px;position: relative;top: 0px;}
+#sub_img{width: 68px;height: 16px;}
+.sns a img{width: 55px;height: 45px;position: relative;top: 0px;}
+.sns img{width: 68px;height: 67px;position: relative;top: 0px;}
+#saomiao img{width: 85px;height: 26px;}
+

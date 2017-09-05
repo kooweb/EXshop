@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+		<title></title>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript">
+			
+		</script>
+	</head>
+	<body>
+		<div id="head">
+			
+		</div>
+		<div id="cart">
+		<div id="cartCart">购物车</div>
+<div id="cartTitle">
+	<ul>
+		<li class="cartActive">1、我的购物车</li>
+		<li class="cartDef">2、填写收货信息及核对订单</li>
+		<li class="cartDef">3、提交订单成功</li>
+	</ul>
+</div>
+<div id="cartList">
+
+
+<div class="caption">
+	<div id="capName">商品名称</div>
+	<div id="capPrice">单价</div>
+	<div id="capNum">数量</div>
+	<div id="capOperate">操作</div>
+</div>
+<div>购物车暂无商品！</div>
+ 
+        
+
+	
+</div>
+<div class="clearfloat"></div>
+<div id="cartPrice">
+		<table width="100%" >
+		<tr>
+			<td width="90%" align="right">商品金额总计：</td>
+			<td width="10%" class="cartColor">￥<span id="totalPrice" >0.00</span></td>
+		</tr>
+                <!--
+		<tr>
+			<td width="90%" align="right">商品金额总计：</td>
+			<td width="10%" class="cartColor">￥<span id="totalPrice" >0.00</span></td>
+		</tr>-->
+		</table>
+
+</div>
+<div class="clearfloat"></div>
+<div id="figure">
+	
+	<div class="toSettlement"><a href="http://www.epgo.com/index.php/settlement/index">下单结算 <img src="http://www.epgo.com/images/tosett.png"></a></div>
+	<div class="goOn"><a href="http://www.epgo.com/index.php"><img src="http://www.epgo.com/images/goon.png"> 继续购物</a></div>
+</div>
+	
+
+</div>
+      </div>
+
+	</body>
+	<script type="text/javascript">
+		$(function(){
+		  $('#head').load("index_top.html")
+		})
+		
+	</script>
+</html>

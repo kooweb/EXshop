@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/index_top.css"/>
+		<title></title>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript">
+			
+		</script>
+	</head>
+	<body>
+		<div id="index_top">
+			
+		<div id="top_content">
+			<img id="logo" src="img/logo.png"/>
+			<img id="img_first" src="img/bugua.png"/>
+			<img id="img_second" src="img/QQ图片20170703102641.png"/>
+			<input type="text" id="field"  />
+			<a><img id="img_three" src="img/search.png"/></a>
+			<img id="shop" src="img/QQ图片20170703114039.png"/>
+			<img id="img_four" src="img/QQ图片20170703111139.png"/>
+			<input type="button" id="btn" value="登陆/注册" />
+			<div id="top_list">
+				<ul>
+					<li>首页</li>
+					<li>母婴</li>
+					<li>厨房</li>
+					<li>家居</li>
+					<li>数码</li>
+				</ul>
+			</div>
+		</div>		
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$('#img_four').click(function(){
+				window.open('cart.html');
+			})
+			$('#btn').click(function(){
+				window.open('index_abanderar.html');
+			})
+			$('#logo').click(function(){
+				window.open('index.html')
+			})
+		})
+	</script>
+</html>
